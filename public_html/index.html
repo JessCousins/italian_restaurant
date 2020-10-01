@@ -1,8 +1,25 @@
+<!-- Jess Cousins -->
 <!DOCTYPE html>
 
 <html lang="en">
 
 	<head>
+  <link rel="stylesheet" href="indexstyle.css">
+  <style>
+ 
+  li a:hover:not(.active) {
+    background-color: darkgreen;
+  }
+
+  .active {
+  background-color: darkgreen;
+  }
+
+  #history {
+    font-style: italic;
+  }
+
+  </style>
 		<title>Ristorante Italiano</title>
 	</head>
 
@@ -12,37 +29,39 @@
 			<nav>
         <ul>
           <li>
-            <a href="index.html">Home Page</a>
+            <a class="active" href="index.html">Home</a>
           </li>
 
           <li>
-            <a href="menu.html">Menu Page</a>
+            <a href="menu.html">Menu</a>
           </li>
 
           <li>
-            <a href="specials.html">Specials Page</a>
+            <a href="specials.html">Specials</a>
           </li>
           <li>
-            <a href="catering.html">Catering Page</a>
+            <a href="catering.html">Catering</a>
           </li>
           <li>
-            <a href="hours.html">Hours Page</a>
+            <a href="hours.html">Hours</a>
           </li>
           <li>
-            <a href="about.html">About Page</a>
+            <a href="about.html">About</a>
           </li>
           <li>
-            <a href="reviews.html">Reviews Page</a>
+            <a href="reviews.html">Reviews</a>
           </li>
         </ul>
       </nav>
       
-			<h1>Ristorante Italiano</h1>
-			<p>Ristorante Italiano &gt; microwavable</p>
+			<h1 style="color:darkgreen;text-align:center;"> Ristorante Italiano</h1>
+			<p>Ristorante Italiano &gt; microwavable.</p>
+      <p>Our goal is to provide the most authentic European experience for our customers. Our extensive menu, outdoor seating, and decadent deserts will immediately transport you to Italy, without the flight!</p>
 		</header>
 
 		<h1>Welcome to Ristorante Italiano</h1>
 		<p>Our Italian Restaurant is a casual dining restaurant specializing in Italian cuisine.</p>
+    <p id="history">It all began when Mario Bellucci, our grandfather, immigrated to the United States in 1925. He had a dream to give America the best of Italy, and we intend to carry on that dream.</p>
 
 		<h2>Our signature spaghetti and meatballs</h2>
 		<img src="img/specialspaghetti.png" alt="Spaghetti" />
