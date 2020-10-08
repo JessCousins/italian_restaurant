@@ -4,83 +4,104 @@
  <html lang="en">
 
  	<head>
-  <link rel="stylesheet" href="hoursstyle.css">
-  <style>
- 
-  li a:hover:not(.active) {
-    background-color: darkgreen;
-  }
+      <title>Ristorante Italiano</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie-edge">
+      <title>Bootstrap Example</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
 
-  .active {
-  background-color: darkgreen;
-  }
+  <body>
+  <div class="container">
+  <div class="jumbotron">
+    <img src="img/italianrestaurant.jpg" alt="Logo" />
+  </div>
 
-  </style>
-        <img src="img/italianrestaurant.jpg"/>
-
- 		<ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-
-          <li>
-            <a href="menu.html">Menu</a>
-          </li>
-
-          <li>
-            <a href="specials.html">Specials</a>
-          </li>
-          <li>
-            <a href="catering.html">Catering</a>
-          </li>
-          <li>
-            <a class="active" href="hours.html">Hours</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="reviews.html">Reviews</a>
-          </li>
-        </ul>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light"
+          <a href="#" class="navbar-brand">Ristorante Italiano</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+              <span class="navbar-toggler-icon"></span>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav">
+                   <il class="nav-item">
+                      <a href="about.html" class="nav-link">About</a>
+                  </il>
+                  <li class="nav-item">
+                      <a href="menu.html" class="nav-link">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="hours.html" class="nav-link">Hours</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="catering.html" class="nav-link">Catering</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="specials.html" class="nav-link">Specials</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="reviews.html" class="nav-link">Reviews</a>
+                  </li>
+              </ul>
+          </div>
       </nav>
+
+    <div class="container">
+      <div class="row">
+          <div class="col">
+          </div> 
+          <div class="col">
+          </div>
+      </div> 
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
  		<title>Hours Page</title>
- 	</head>
 
-	<body>
-		<header>Ristorante Italiano</header>
-
+    <div class="container">
     <h1>Hours</h1>
-    <table style="width:100%">
-  <tr>
-    <td>Monday</td>
-    <td>11AM-11PM</td>
-  </tr>
-  <tr>
-    <td>Tuesday</td>
-    <td>11AM-11PM</td>
-  </tr>
-  <tr>
-    <td>Wednesday</td>
-    <td>11AM-11PM</td>
-  </tr>
-  <tr>
-    <td>Thursday</td>
-    <td>11AM-11PM</td>
-  </tr>
-  <tr>
-    <td>Friday</td>
-    <td>11AM-12AM</td>
-  </tr>
-  <tr>
-    <td>Saturday</td>
-    <td>11AM-12AM</td>
-  </tr>
-  <tr>
-    <td>Sunday</td>
-    <td>11AM-9PM</td>
-  </tr>
-  </table>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="active">
+          <td>Monday</td>
+          <td>11AM-11PM</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>11AM-11PM</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>11AM-11PM</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>11AM-11PM</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>11AM-12AM</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>11AM-12AM</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>11AM-9PM</td>
+        </tr>
+        </table>
   <p>Closed on Christmas</p>
 
 
